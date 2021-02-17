@@ -1,7 +1,11 @@
+import Display from './components/Display';
+import ButtonPanel from './components/ButtonPanel';
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Display />
+      <ButtonPanel />
     </div>
   );
 }
