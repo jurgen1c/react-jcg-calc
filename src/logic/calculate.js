@@ -1,14 +1,16 @@
 import operate from './operate';
 
-const calculate = (data, bName) => {
-  if(bName === '+/-') {
-    data.total *= -1;
-    data.next *= -1
-    return data
-  } else {
-    data.total = operate(data.total, data.next, bName);
-    return data
+const calculate = ({ total, next }, bName) => {
+  let result = total;
+  let nextNum = next;
+
+  if (bName === '+/-') {
+    result *= -1;
+    nextNum *= -1;
+    return { result, nextNum };
   }
-}
+  result = operate(result, nextNum, bName);
+  return { result, nextNum };
+};
 
 export default calculate;

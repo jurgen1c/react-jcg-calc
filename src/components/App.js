@@ -9,7 +9,7 @@ function App() {
     <>
       <div className="app">
         <Display />
-        <ButtonPanel calculate={calculate}/>
+        <ButtonPanel calculate={calculate} />
       </div>
     </>
   );
