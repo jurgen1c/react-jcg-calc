@@ -1,6 +1,6 @@
 import operate from './operate';
 
-const calculate = ({ total, next, operation }, bName) => {
+const calculate = ({ total = null, next = null, operation = null }, bName) => {
   let result = total;
   let nextNum = next;
 
