@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 
 export default function Display({ result }) {
@@ -14,5 +13,5 @@ Display.propTypes = {
 };
 
 Display.defaultProps = {
-  result: 'o',
+  result: '0',
 };
