@@ -3,15 +3,20 @@
 
 > This is a Calculator web app for Math Magicians online learning. Built using React.
 
-![Page](Assets/Images/home.png)
+![Page](./home.png)
+
+## Getting Started
+
+### `git clone https://github.com/jurgen1c/react-jcg-calc.git`
+
+### `cd react-jcg-calc`
+
 
 ## Available Scripts
 
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
 
 ### `npm test`
 
