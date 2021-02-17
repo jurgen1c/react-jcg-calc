@@ -6,7 +6,7 @@ export default function ButtonPanel({
   group1, group2, group3, group4, group5,
 }) {
   return (
-    <>
+    <div className="buttonPanel">
       <div>
         {group1.map(item => (
           <Button name={item} key={item} />
@@ -32,7 +32,7 @@ export default function ButtonPanel({
           <Button name={item} key={item} />
         ))}
       </div>
-    </>
+    </div>
   );
 }
 

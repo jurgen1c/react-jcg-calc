@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 export default function Display({ result }) {
   return (
-    <div>
+    <div className="display">
       {result}
     </div>
   );
