@@ -11,6 +11,8 @@
 
 ### `cd react-jcg-calc`
 
+### `npm install`
+
 
 ## Available Scripts
 
