@@ -1,4 +1,5 @@
 import React from 'react';
+import calculate from '../logic/calculate';
 
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
@@ -8,7 +9,7 @@ function App() {
     <>
       <div className="app">
         <Display />
-        <ButtonPanel />
+        <ButtonPanel calculate={calculate} />
       </div>
     </>
   );
