@@ -1,6 +1,6 @@
 import operate from './operate';
 
-const calculate = ({ total, next }, bName) => {
+const calculate = ({ total, next, operation }, bName) => {
   let result = total;
   let nextNum = next;
 
@@ -9,7 +9,7 @@ const calculate = ({ total, next }, bName) => {
     nextNum *= -1;
     return { result, nextNum };
   }
-  result = operate(result, nextNum, bName);
+  result = operate(result, nextNum, operation);
   return { result, nextNum };
 };
 

@@ -19,7 +19,7 @@ const operate = (numberOne, numberTwo, op) => {
       result = numOne / numTwo;
       break;
     case '%':
-      result = numOne % numTwo;
+      result = Math.floor(numOne / 100);
       break;
     default:
   }
