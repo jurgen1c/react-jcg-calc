@@ -13,7 +13,7 @@ const operate = (numberOne, numberTwo, op) => {
       if (numTwo < 0 && numOne > 0) {
         return Math.abs(numOne) - Math.abs(numTwo);
       }
-      return numOne + numTwo;
+      return Math.abs(numOne) + Math.abs(numTwo);
     case '-':
       if (numOne < 0 && numTwo < 0) {
         return -(Math.abs(numTwo) + Math.abs(numOne));
@@ -21,7 +21,7 @@ const operate = (numberOne, numberTwo, op) => {
       if (numOne < 0) {
         return Math.abs(numTwo) - Math.abs(numOne);
       }
-      return numOne - numTwo;
+      return Math.abs(numOne) - Math.abs(numTwo);
     case 'X':
       return numOne * numTwo;
     case '÷':
