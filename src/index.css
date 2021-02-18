@@ -43,8 +43,9 @@ button {
   background: gray;
   color: white;
   font-weight: 700;
-  text-align: end;
-  padding: 0.5rem 1rem;
+  justify-content: flex-end;
+  padding: 1.5rem 1rem;
+  font-size: 5rem;
 }
 
 .buttonPanel {
