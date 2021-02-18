@@ -6,26 +6,30 @@ import ButtonPanel from './ButtonPanel';
 
 export default class App extends React.Component {
   constructor(props) {
-    super(props)
-  
+    super(props);
+
     this.state = {
-      total: null,
-      next: null,
-      operation: null
-    }
+      total: '',
+      next: '',
+      operation: '',
+    };
+    this.handleClick = this.handleClick.bind(this);
   }
 
-  render(){
+  handleClick(btnName) {
+    const { total, next, operation } = calculate(this.state, btnName);
+    this.setState({ total, next, operation });
+  }
 
+  render() {
+    const { total, next, operation } = this.state;
     return (
       <>
         <div className="app">
-          <Display />
-          <ButtonPanel calculate={calculate} />
+          <Display result={String(total)} next={String(next)} operation={operation} />
+          <ButtonPanel clickHandler={this.handleClick} />
         </div>
       </>
     );
   }
-  
 }
-
