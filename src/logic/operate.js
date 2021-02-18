@@ -7,17 +7,29 @@ const operate = (numberOne, numberTwo, op) => {
 
   switch (op) {
     case '+':
-      return numOne.plus(numTwo).toNumber();
+      if (numOne < 0 && numTwo > 0) {
+        return (Math.abs(numTwo) - Math.abs(numOne));
+      }
+      if (numTwo < 0 && numOne > 0) {
+        return Math.abs(numOne) - Math.abs(numTwo);
+      }
+      return numOne + numTwo;
     case '-':
-      return numOne.minus(numTwo).toNumber();
+      if (numOne < 0 && numTwo < 0) {
+        return -(Math.abs(numTwo) + Math.abs(numOne));
+      }
+      if (numOne < 0) {
+        return Math.abs(numTwo) - Math.abs(numOne);
+      }
+      return numOne - numTwo;
     case 'X':
-      return Big(Number(numOne * numTwo));
+      return numOne * numTwo;
     case '÷':
-      return numOne.div(numTwo).toNumber();
+      return numOne / numTwo;
     case '%':
-      return numOne.times(Big(0.01)).toNumber();
+      return numOne * Big(0.01);
     case '+/-':
-      return numOne.times(minusOne).toNumber();
+      return Math.abs(numOne) * Math.abs(minusOne);
     default:
       return Error;
   }
