@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Componenet renders correctly 1`] = `
+<div
+  className="container"
+>
+  <div>
+    <h2>
+      Lets do some Math!
+    </h2>
+  </div>
+  <div
+    className="app"
+  >
+    <div
+      className="display"
+    >
+      
+      
+      
+    </div>
+    <div
+      className="buttonPanel"
+    >
+      <div>
+        <button
+          className="sc-bdfBwQ iFFVnC btn"
+          name="AC"
+          onClick={[Function]}
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          className="sc-gsTCUz ivWJYG btn"
+          name="+/-"
+          onClick={[Function]}
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          className="sc-dlfnbm bOOCLx btn"
+          name="%"
+          onClick={[Function]}
+          type="button"
+        >
+          %
+        </button>
+        <button
+          className="sc-hKgILt ATUro btn"
+          name="÷"
+          onClick={[Function]}
+          type="button"
+        >
+          ÷
+        </button>
+      </div>
+      <div>
+        <button
+          className="sc-eCssSg cwRZbc btn"
+          name="7"
+          onClick={[Function]}
+          type="button"
+        >
+          7
+        </button>
+        <button
+          className="sc-jSgupP cNYwkx btn"
+          name="8"
+          onClick={[Function]}
+          type="button"
+        >
+          8
+        </button>
+        <button
+          className="sc-gKsewC huJzkI btn"
+          name="9"
+          onClick={[Function]}
+          type="button"
+        >
+          9
+        </button>
+        <button
+          className="sc-iBPRYJ kKXfUf btn"
+          name="X"
+          onClick={[Function]}
+          type="button"
+        >
+          X
+        </button>
+      </div>
+      <div>
+        <button
+          className="sc-fubCfw iLRLpB btn"
+          name="4"
+          onClick={[Function]}
+          type="button"
+        >
+          4
+        </button>
+        <button
+          className="sc-pFZIQ hvhYqa btn"
+          name="5"
+          onClick={[Function]}
+          type="button"
+        >
+          5
+        </button>
+        <button
+          className="sc-jrAGrp bFqaqO btn"
+          name="6"
+          onClick={[Function]}
+          type="button"
+        >
+          6
+        </button>
+        <button
+          className="sc-kEjbxe bnLhHi btn"
+          name="-"
+          onClick={[Function]}
+          type="button"
+        >
+          -
+        </button>
+      </div>
+      <div>
+        <button
+          className="sc-iqHYGH NkWAk btn"
+          name="1"
+          onClick={[Function]}
+          type="button"
+        >
+          1
+        </button>
+        <button
+          className="sc-crrsfI fJMhWB btn"
+          name="2"
+          onClick={[Function]}
+          type="button"
+        >
+          2
+        </button>
+        <button
+          className="sc-dQppl eJqEGn btn"
+          name="3"
+          onClick={[Function]}
+          type="button"
+        >
+          3
+        </button>
+        <button
+          className="sc-bqyKva daHCJL btn"
+          name="+"
+          onClick={[Function]}
+          type="button"
+        >
+          +
+        </button>
+      </div>
+      <div>
+        <button
+          className="sc-kstrdz fExTGg o-btn"
+          name="0"
+          onClick={[Function]}
+          type="button"
+        >
+          0
+        </button>
+        <button
+          className="sc-hBEYos EjdWo btn"
+          name="."
+          onClick={[Function]}
+          type="button"
+        >
+          .
+        </button>
+        <button
+          className="sc-fodVxV fnuKlM btn"
+          name="="
+          onClick={[Function]}
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
