@@ -31,10 +31,38 @@ button {
   height: 100%;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px lightblue;
+  margin-bottom: 1rem;
+}
+
+.navbar div {
+  padding: 1rem;
+}
+
+.navbar a {
+  margin: 0 .5rem;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.container h2 {
+  width: auto;
+  margin: 1rem;
+  padding: 1rem;
+}
+
 .app {
   display: flex;
   flex-direction: column;
   width: 700px;
+  margin-right: 3rem;
 }
 
 .display {
