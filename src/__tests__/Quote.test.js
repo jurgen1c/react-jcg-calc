@@ -6,6 +6,6 @@ test('Componenet renders correctly', () => {
   const component = renderer.create(
     <Quote />,
   );
-  let tree = component.toJSON();
+  const tree = component.toJSON();
   expect(tree).toMatchSnapshot();
 });

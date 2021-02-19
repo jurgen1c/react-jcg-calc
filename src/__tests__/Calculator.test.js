@@ -6,6 +6,6 @@ test('Componenet renders correctly', () => {
   const component = renderer.create(
     <Calculator />,
   );
-  let tree = component.toJSON();
+  const tree = component.toJSON();
   expect(tree).toMatchSnapshot();
 });
